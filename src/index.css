@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary colors */
+  --clr-light-red: 0, 100%, 67%;
+  --clr-orange-yellow: 39, 100%, 56%;
+  --clr-green-teal: 166, 100%, 37%;
+  --clr-cobalt-blue: 234, 85%, 45%;
+  /* Gradients background */
+  --clr-slate-blue: 252, 100%, 67%;
+  --clr-royal-blue: 241, 81%, 54%;
+  /* Gradiendts circle */
+  --clr-violet-blue: 256, 72%, 46%;
+  --clr-persian-blue: 241, 72%, 46%;
+  /* Neutral */
+  --clr-white: 0, 0%, 100%;
+  --clr-pale-blue: 221, 100%, 96%;
+  --clr-light-lavender: 241, 100%, 89%;
+  --clr-dark-gray-blue: 224, 30%, 27%;
+}
+
+@layer base {
+  body {
+    @apply font-hanken-grotesk text-lg bg-clr-pale-blue;
+  }
+}
+
+.reaction {
+  background-color: hsl(var(--clr-light-red), 0.1);
+  color: hsl(var(--clr-light-red));
+}
+
+.memory {
+  background-color: hsl(var(--clr-orange-yellow), 0.1);
+  color: hsl(var(--clr-orange-yellow));
+}
+
+.verbal {
+  background-color: hsl(var(--clr-green-teal), 0.1);
+  color: hsl(var(--clr-green-teal));
+}
+
+.visual {
+  background-color: hsl(var(--clr-cobalt-blue), 0.1);
+  color: hsl(var(--clr-cobalt-blue));
+}
