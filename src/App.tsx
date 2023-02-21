@@ -2,7 +2,7 @@ import ResultsCard from "./components/ResultsCard";
 
 function App() {
   return (
-    <main className="min-h-screen flex justify-center items-center">
+    <main className="min-h-screen flex justify-center md:items-center">
       <ResultsCard />
     </main>
   );
